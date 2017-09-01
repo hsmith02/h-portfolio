@@ -122,12 +122,24 @@ body.main {
     font-weight: 800;
 }
 
-.projects {
+#projects {
+  display: inline-block;
   text-align: center;
+  width:100%;
+}
+
+.proj-block {
+  width: 33%;
+  display: inline-block;
 }
 
 .projects-heading {
   font-size: 25px;
+}
+
+.bloc-jams-image {
+  max-width: 200px;
+
 }
 
 .contact {
