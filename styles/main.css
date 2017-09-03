@@ -141,9 +141,13 @@ body.main {
   max-width: 200px;
 }
 
-.pong-image {
+#pong-image {
   max-width: 200px;
 
+}
+
+#pong-game {
+  display: block;
 }
 
 .contact {

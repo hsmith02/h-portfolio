@@ -3,9 +3,11 @@
     <head>
         <title>Heather Smith</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.0/css/iziModal.min.css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="styles/pong.css">
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -25,6 +27,18 @@
                 <a href="#contact" class="navbar-link">Projects</a>
             </div>
         </nav>
+
+        <div id="modal">
+          <div id="pong-game">
+            <h1 class="title">PONG</h1>
+            <div id="message">Press the space bar to begin!</div>
+            <div>
+              <h3 class="scores"><span id='computer-score'>0</span>:<span id='player-score'>0</span></h3>
+            </div>
+          </div>
+          <div id="esc-message">Press esc to exit.</div>
+        </div>
+
         <section class="hero-content">
             <div class="title-container">
                 <h1 class="hero-title">Heather Smith</h1>
@@ -32,6 +46,7 @@
                 <h3 class="sub-title">Web Developer</h3>
             </div>
         </section>
+
         <section class="about">
             <h3 class="aboutTitle"></h3>
             <p class="about-description">I am a web developer living in Kelowna, British Columbia. New to the development scene with a background in Arts, I am learning to create beautiful websites using the latest technology.</p>
@@ -40,21 +55,24 @@
                 You can view my <a class="link" href="https:www.linkedin.com/in/heather-smith-437aba134">LinkedIn</a> profile, check out my code on <a class="link" href="https://github.com/hsmith02">GitHub</a>, or find a lot of puppy photos on <a class="link" href="https://www.instagram.com/smithheathers/ ">Instagram</a>.
             </p>
         </section>
+
         <section>
           <hr class="divider2">
         </section>
+
         <section id="projects" class="projects">
             <h3 class="projects-heading">Projects</h3>
             <div class="proj-block bloc-jams">
               <img class="bloc-jams-image" src="assets/images/bloc-jams.png" alt="Bloc Jams Image"><img>
             </div>
             <div class="proj-block pong">
-              <img class="pong-image" src="assets/images/pong.png" alt="Pong Image"><img>
+              <img id="pong-image" src="assets/images/pong.png" alt="Pong Image"><img>
             </div>
             <div class="proj-block bloc-jams">
               <img class="bloc-jams-image" src="assets/images/bloc-jams.png" alt="Bloc Jams Image"><img>
             </div>
         </section>
+
         <section id="contact" class="contact">
             <h3 class="contact-header">Contact<h3>
             <form class="contactForm" action="https://getsimpleform.com/messages?form_api_token=a0ba80bfa7bafb9d1566a9810b404c01" method="post">
@@ -74,6 +92,12 @@
             </form>
         </section>
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-        <script src="scripts/landing.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.0/js/iziModal.min.js"></script>
+        <script src="./scripts/pong/scripts/classes/ball.js"></script>
+        <script src="./scripts/pong/scripts/classes/paddle.js"></script>
+        <script src="./scripts/pong/scripts/classes/player.js"></script>
+        <script src="./scripts/pong/scripts/classes/computer.js"></script>
+        <script src="./scripts/pong/scripts/app.js"></script>
+        <script src="./scripts/main.js"></script>
     </body>
 </html>

@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.main {
+  text-align: center;
+}
+#message {
+  margin-bottom: 30px;
+}
+
+.scores {
+  font-size: 30px;
+}
