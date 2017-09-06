@@ -3,11 +3,24 @@ body.main {
     margin: 0;
 }
 
+.container {
+    max-width: 2000px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
 .navbar {
     position: fixed;
     width: 100%;
     padding: 0.5rem;
-    background-color: white;
+    background: none;
     opacity: .7;
     min-height: 40px;
     z-index:1;
@@ -17,7 +30,7 @@ body.main {
     display: inline;
     float: right;
     color: black;
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.5px;
     font-weight: 700;
     text-transform: uppercase;
@@ -71,7 +84,7 @@ body.main {
 
 .divider2 {
     max-width: 500px;
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 .links-container {
@@ -89,31 +102,19 @@ body.main {
     cursor: pointer;
 }
 
+.section {
+    min-height: 300px;
+    height:auto;
+    padding: 20px;
+}
+
 .about {
-  text-align: center;
-}
-
-.aboutTitle {
-    text-align: center;
-    font-size: 25px;
-}
-
-.about-description {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 600px;
-    font-size: 20px;
+    background-color: #F9F9F9;
 }
 
 .skills-list {
   font-weight: bold;
   font-size: 22px;
-}
-
-.linksDescription {
-    text-align: center;
-    font-size: 20px;
 }
 
 .link {
@@ -131,10 +132,6 @@ body.main {
 .proj-block {
   width: 33%;
   display: inline-block;
-}
-
-.projects-heading {
-  font-size: 25px;
 }
 
 .bloc-jams-image {
@@ -181,4 +178,13 @@ body.main {
 .sendMessageButton {
     display: block;
     text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 100px;
+    box-shadow: 0 4px 15px -2px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.02);
+    overflow: auto;
 }
