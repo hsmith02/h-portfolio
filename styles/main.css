@@ -11,11 +11,12 @@ body.main {
 p {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 1.2em;
+    line-height: 1.8em;
 }
 
 h3 {
     font-size: 2.5rem;
-
 }
 
 .navbar {
@@ -58,21 +59,21 @@ h3 {
     display: block;
     width: 60%;
     margin-left: auto;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .hero-title {
     margin: 0;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    text-shadow: 1px 1px 0px rgb(58,23,63);
     text-align: center;
     max-width: 500px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;;
 }
 
 .sub-title {
@@ -83,11 +84,6 @@ h3 {
 .divider {
     max-width: 500px;
     background-color: #505050 !important;
-}
-
-.divider2 {
-    max-width: 500px;
-    margin-top: 0;
 }
 
 .links-container {
@@ -111,13 +107,40 @@ h3 {
     padding: 20px;
 }
 
-.about {
-    background-color: #F9F9F9;
+.section-title {
+  font-weight: 600;
+  letter-spacing: .2rem;
 }
 
-.skills-list {
-  font-weight: bold;
+.about {
+    background-color: white;
+}
+
+.about-description {
+
+}
+
+.about-skills {
+  font-weight: 300;
   font-size: 22px;
+  padding-top: 20px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  background: #9fb0cc;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.about-links{
+  padding-top: 20px;
 }
 
 .link {
