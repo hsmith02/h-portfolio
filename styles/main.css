@@ -1,11 +1,10 @@
 body.main {
     background-color: white;
     margin: 0;
-    font-family: "PT Serif", serif
 }
 
 .container {
-    max-width: 2000px;
+    max-width: 950px;
 }
 
 p {
@@ -16,7 +15,15 @@ p {
 }
 
 h3 {
-    font-size: 2.5rem;
+    color: #222222;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.project-title {
+    font-size: 1.5em;
+    margin: 0 0 5px 0;
 }
 
 .navbar {
@@ -63,14 +70,12 @@ h3 {
 }
 
 .hero-title {
-    margin: 0;
     font-size: 3.5rem;
-    font-weight: 300;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
     text-align: center;
     max-width: 500px;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;;
@@ -104,7 +109,7 @@ h3 {
 .section {
     min-height: 300px;
     height:auto;
-    padding: 20px;
+    padding: 35px;
 }
 
 .section-title {
@@ -114,10 +119,6 @@ h3 {
 
 .about {
     background-color: white;
-}
-
-.about-description {
-
 }
 
 .about-skills {
@@ -146,7 +147,7 @@ h3 {
 .link {
     text-decoration: none;
     color: black;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 #projects {
@@ -210,4 +211,13 @@ h3 {
     min-height: 100px;
     height: auto;
     text-align: left;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 20px 0 20px 10px;
+}
+
+.contact-button {
+    width: 101%;
 }

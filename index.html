@@ -51,7 +51,7 @@
 
         <section class="section about">
             <div class="container">
-                <h3 class="section-title">About</h3>
+                <h3>About</h3>
                     <div class="about-description">
                         <p>I am a web developer living in Kelowna, British Columbia. New to the development scene with a background in Arts, I am learning to create beautiful websites using the latest technology.</p>
                     </div>
@@ -59,8 +59,8 @@
                     <div class="about-skills">
                         <div class="circle">HTML5</div>
                         <div class="circle">CSS3</div>
-                        <div class="circle">GiT</div>
-                        <div class="circle">JavaScript</div>
+                        <div class="circle">Git</div>
+                        <div class="circle">Javascript</div>
                         <div class="circle">JQuery</div>
                         <div class="circle">AngularJS</div>
                         <div class="circle">ReactJS</div>
@@ -72,22 +72,22 @@
                             You can view my <a class="link" href="https:www.linkedin.com/in/heather-smith-437aba134">LinkedIn</a> profile, check out my code on <a class="link" href="https://github.com/hsmith02">GitHub</a>, or find a lot of puppy photos on <a class="link" href="https://www.instagram.com/smithheathers/ ">Instagram</a>.
                         </p>
                     </div>
-
+            </div>
         </section>
 
         <section id="projects" class="section">
             <div class="container">
-              <h3 class="section-title">Projects</h3>
+              <h3>Projects</h3>
 
               <div class="card card-large">
                 <div class="row">
                   <div class="three columns">
-                    <img class="proj-image" src="assets/images/bloc-jams.png" alt="Bloc Jams Image"><img>
+                    <img class="proj-image" src="assets/images/bloc-jams.png" alt="Bloc Jams Image" />
                   </div>
 
                   <div class="nine columns">
                       <div class="row">
-                        <h3>Bloc-Jams</h3>
+                        <h3 class="project-title">Bloc-Jams</h3>
                         <p>Music Player built using HTML, CSS, JavaScript, AngularJS, and JQuery.</p>
                       </div>
                   </div>
@@ -97,12 +97,12 @@
               <div class="card card-large">
                 <div class="row">
                   <div class="three columns">
-                    <img id="pong-image" class="proj-image" src="assets/images/pong.png" alt="Pong Image"><img>
+                    <img id="pong-image" class="proj-image" src="assets/images/pong.png" alt="Pong Image" />
                   </div>
 
                   <div class="nine columns">
                     <div class="row">
-                      <h3>Pong</h3>
+                      <h3 class="project-title">Pong</h3>
                       <p>Click the picture!</p>
                     </div>
                   </div>
@@ -112,12 +112,12 @@
               <div class="card card-large">
                 <div class="row">
                   <div class="three columns">
-                    <img class="proj-image" src="assets/images/bloc-jams.png" alt="Bloc Jams Image"><img>
+                    <img class="proj-image" src="assets/images/bloc-jams.png" alt="Bloc Jams Image" />
                   </div>
 
                   <div class="nine columns">
                     <div class="row">
-                      <h3>SimpliFIT</h3>
+                      <h3 class="project-title">SimpliFIT</h3>
                       <p>An app that allows the user to build a custom workout with both a cardio and strength component. Users can select specific exercises and save them to the days of their choice.</p>
                     </div>
                   </div>
@@ -126,23 +126,30 @@
             </div>
         </section>
 
-        <section id="contact" class="contact">
-            <h3 class="section-title">Contact<h3>
-            <form class="contactForm" action="https://getsimpleform.com/messages?form_api_token=a0ba80bfa7bafb9d1566a9810b404c01" method="post">
-                <input type='hidden' name='redirect_to' value='/thankyou.html' />
-                <div class="nameInput">
-                    <input type='text' name='name' placeholder='Your Full Name' />
+        <section id="contact" class="section">
+            <div class="container">
+                <h3>Contact</h3>
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <form action="https://getsimpleform.com/messages?form_api_token=a0ba80bfa7bafb9d1566a9810b404c01" method="post">
+                            <input type='hidden' name='redirect_to' value='/thankyou.html' />
+                            <div class="nameInput">
+                                <input class="contact-input" name='name' placeholder='Your Full Name' />
+                            </div>
+                            <div class="emailInput">
+                                <input class="contact-input" type='email' name='email' placeholder='Your E-mail Address' />
+                            </div>
+                            <div class="messageInput">
+                                <textarea class="contact-input" name='message' placeholder='Write your message ...'></textarea>
+                            </div>
+                            <div class="sendMessageButton">
+                                <input class="contact-input contact-button" type='submit' value='Send Message' />
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="emailInput">
-                    <input type='email' name='email' placeholder='Your E-mail Address' />
-                </div>
-                <div class="messageInput">
-                    <textarea name='message' placeholder='Write your message ...'></textarea>
-                </div>
-                <div class="sendMessageButton">
-                    <input type='submit' value='Send Message' />
-                </div>
-            </form>
+            </div>
         </section>
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.0/js/iziModal.min.js"></script>
