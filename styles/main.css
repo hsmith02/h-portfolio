@@ -21,6 +21,24 @@ h3 {
     font-size: 2em;
 }
 
+h4 {
+    color: #FFFFFF;
+    font-size:1.5em;
+}
+
+#copyright {
+    color: #FFFFFF;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    color: #adadad;
+    line-height: 2;
+    cursor: pointer;
+}
+
 .project-title {
     font-size: 1.5em;
     margin: 0 0 5px 0;
@@ -223,4 +241,9 @@ h3 {
 
 .contact-button {
     width: 101%;
+    color: #FFFFFF !important;
+}
+
+#footer {
+    background-color: #424242;
 }
